@@ -26,7 +26,7 @@
 
     
       
-        <title>Component Selection Example - EGR 304 Jacob Andrus Data Sheet</title>
+        <title>Component Selections - EGR 304 Jacob Andrus Data Sheet</title>
       
     
     
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Component Selection Example
+              Component Selections
             
           </span>
         </div>
@@ -512,7 +512,7 @@
         
   
   <span class="md-ellipsis">
-    Component Selection Example
+    Component Selections
   </span>
   
 
@@ -763,7 +763,7 @@
   
 
 
-  <h1>Component Selection Example</h1>
+  <h1>Component Selections</h1>
 
 <p><strong>Voltage Regulator</strong></p>
 <ol>
@@ -783,7 +783,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
+<td>Inexpensive component</td>
 <td>Limited to 1.5 Ampere output</td>
 </tr>
 <tr>
@@ -844,7 +844,7 @@
 <tbody>
 <tr>
 <td>Massive output current</td>
-<td>More expensive</td>
+<td>Slightly expensive</td>
 </tr>
 <tr>
 <td>Low dropout voltage</td>
@@ -860,6 +860,101 @@
 </ol>
 <p><strong>Choice:</strong> Option 3: LM1084IT-5.0/NOPB IC REG LINEAR 5V 5A TO220-3</p>
 <p><strong>Rationale:</strong> The TI voltage regulator is more expensive, but has an output of 5 Amperes, ensuring the all components will have sufficient power. It's also cheaper than the LT323AT#PBF from Analog Devices Inc., despite having a larger current output.</p>
+<p><strong>Operational Amplifier</strong></p>
+<ol>
+<li>
+<p>MCP6004-I/P IC OPAMP GP 4 CIRCUIT 14DIP</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-3.png" data-desc-position="bottom"><img alt="" src="../image-3.png"></a></p>
+<ul>
+<li>$0.59/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inexpensive component</td>
+<td>Pins are hard to reposition</td>
+</tr>
+<tr>
+<td>Multiple circuits available for use</td>
+<td>Takes up large space on PCB</td>
+</tr>
+<tr>
+<td>Small voltage swing</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>MCP6004-E/P IC OPAMP GP 4 CIRCUIT 14DIP</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-4.png" data-desc-position="bottom"><img alt="" src="../image-4.png"></a></p>
+<ul>
+<li>$0.65/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-E-P/683200">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Larger operating temperature range</td>
+<td>Pins are hard to reposition</td>
+</tr>
+<tr>
+<td>Also inexpensive, but not as much as MCP6004-I/P</td>
+<td>Takes up large space on PCB</td>
+</tr>
+<tr>
+<td>Meets through hole mount constraints for project</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>MCP601-I/P IC OPAMP GP 1 CIRCUIT 8DIP</li>
+</ol>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-5.png" data-desc-position="bottom"><img alt="" src="../image-5.png"></a></p>
+<ul>
+<li>$0.62/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP601-I-P/305930">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Smaller IC</td>
+<td>Only 1 circuit available</td>
+</tr>
+<tr>
+<td>Larger gain bandwidth</td>
+<td>Large noise voltage density below 20 Hz</td>
+</tr>
+<tr>
+<td>Slightly cheaper than MCP6004-E/P</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 3: MCP601-I/P</p>
+<p><strong>Rationale:</strong> The smaller volume and larger gain bandwidth make the MCP601-I/P much more suitable. The device doesn't need more than 1 operational amplifier and since all 3 choices are roughly the same price, the choice became clear.</p>
 
 
 
