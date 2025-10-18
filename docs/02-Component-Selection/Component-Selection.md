@@ -136,3 +136,47 @@ title: Major Component Selections
 **Choice:** Option 1: ENV-30-PH
 
 **Rationale:** Since this device will primarily be used to tell consumers if their water is safe to drink or not, they will not need super accurate pH readings. While the ENV-40-PH and ENV-45-PH are clearly higher quality, their higher costs make the ENV-30-PH the clear choice.
+
+**Coaxial Connector**
+
+1. RF2-04A-T-00-50-G CONN SMA JACK STR 50 OHM PCB
+
+    ![](image-9.png)
+
+    * $1.70/each
+    * [link to product](https://www.digikey.com/en/products/detail/adam-tech/RF2-04A-T-00-50-G/9830588)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive component                     | Long shipping time              |
+    | Meets through hole mount project constraint       | Lower max frequency        |
+
+1. RFPC-SMA28-F SMA VERTICAL PCB JACK
+
+    ![](image-10.png)
+
+    * $1.73/each
+    * [Link to product](https://www.digikey.com/en/products/detail/gct/RFPC-SMA28-F/22162141)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Inexpensive component                          | Lower max frequency      |
+    | Meets through hole mount project constraint    | 50 ohm impedance |
+    | Shorter shipping time |
+
+    1. SMA-J-P-H-ST-TH1 CONN SMA JACK STR 50 OHM PCB
+
+    ![](image-11.png)
+
+    * $2.67/each
+    * [Link to product](https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-TH1/2345104)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Higher max frequency                          | Slightly more expensive      |
+    | Larger operating temperature range            | Fewer threads to fasten to |
+    | Shortest shipping time |
+
+**Choice:** Option 3: SMA-J-P-H-ST-TH1
+
+**Rationale:** Coaxial connectors aren't very different from each other and while the device probably won't come close to 20 GHz, it's nice to have better electrical ratings. This connector is slightly more expensive, but by less than a dollar compared to the other connectors. It will also arrive the fastest compared to the others.
