@@ -1,5 +1,5 @@
 ---
-title: Component Selections
+title: Major Component Selections
 ---
 
 **Voltage Regulator**
@@ -91,3 +91,48 @@ title: Component Selections
 **Choice:** Option 3: MCP601-I/P
 
 **Rationale:** The smaller volume and larger gain bandwidth make the MCP601-I/P much more suitable. The device doesn't need more than 1 operational amplifier and since all 3 choices are roughly the same price, the choice became clear.
+
+**pH Probe**
+
+1. ENV-30-PH CONSUMER GRADE PH PROBE
+
+    ![](image-6.png)
+
+    * $49.99/each
+    * [link to product](https://www.digikey.com/en/products/detail/atlas-scientific/ENV-30-PH/16003028)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive component                     | Additional $15 shipping fee              |
+    | Short shipping time       | Range of 2-13                   |
+    | Accurate to + or - 0.1 pH | Can never be dry
+
+1. ENV-45-PH SPEAR TIP PH PROBE
+
+    ![](image-7.png)
+
+    * $169.99/each
+    * [Link to product](https://www.digikey.com/en/products/detail/atlas-scientific/ENV-45-PH/16003101)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Reads from 0-14 pH                             | Extremely expensive      |
+    | Life expectancy of 2.5+ years                  | Most likely will require monthly recalibration |
+    | Max pressure of 100 psi |
+
+    1. ENV-40-PH LAB GRADE PH PROBE
+
+    ![](image-8.png)
+
+    * $84.99/each
+    * [Link to product](https://www.digikey.com/en/products/detail/atlas-scientific/ENV-40-PH/16003032)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Accurate to + or - 0.002 pH                          | Very expensive      |
+    | Much stronger output current                         | Most likely will require monthly recalibration |
+    | Hydrogen amplification leads to less noise and more stable readings |
+
+**Choice:** Option 1: ENV-30-PH
+
+**Rationale:** Since this device will primarily be used to tell consumers if their water is safe to drink or not, they will not need super accurate pH readings. While the ENV-40-PH and ENV-45-PH are clearly higher quality, their higher costs make the ENV-30-PH the clear choice.
