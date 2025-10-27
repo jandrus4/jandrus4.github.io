@@ -26,7 +26,7 @@
 
     
       
-        <title>Individal Block Diagram - EGR 304 Jacob Andrus Data Sheet</title>
+        <title>pH Sensor Block Diagram - EGR 304 Jacob Andrus Data Sheet</title>
       
     
     
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Individal Block Diagram
+              pH Sensor Block Diagram
             
           </span>
         </div>
@@ -471,7 +471,7 @@
           
   
   <span class="md-ellipsis">
-    Individal Block Diagram
+    pH Sensor Block Diagram
   </span>
   
 
@@ -482,7 +482,7 @@
         
   
   <span class="md-ellipsis">
-    Individal Block Diagram
+    pH Sensor Block Diagram
   </span>
   
 
@@ -511,9 +511,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#block-diagram" class="md-nav__link">
     <span class="md-ellipsis">
-      Example Block Diagram
+      Block Diagram
     </span>
   </a>
   
@@ -809,9 +809,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#block-diagram" class="md-nav__link">
     <span class="md-ellipsis">
-      Example Block Diagram
+      Block Diagram
     </span>
   </a>
   
@@ -840,21 +840,16 @@
   
 
 
-  <h1>Individal Block Diagram</h1>
+  <h1>pH Sensor Block Diagram</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...</p>
-<p>To get some initial formatting help, one can view <a href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/">"here"</a> some basic techniques.</p>
-<h2 id="example-block-diagram">Example Block Diagram</h2>
-<p>Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-1.png" data-desc-position="bottom"><img alt="Block diagram" src="../image-1.png"></a></p>
+<p>The selected pH probe will allow hydrogen ions in the water to diffuse into the probe so the activity may be measured. A small voltage anywhere from -0.5 volts to +0.5 volts will be generated. This range corresponds to the pH of the water, where the more acidic pH will generate a larger negative voltage and the more basic pH will generate a larger positive voltage.</p>
+<p>The signal is amplified by the operational amplifier which has an ideal gain equal to 4. The microcontroller take this analog signal, convert it to digital and then make a decision as to whether the pH is safe or not. After making the decision, either the green or red LED will light up to indicate "SAFE" or 'DANGER", respectively. The decision and pH value will also be sent to the control board where they will be displayed on the device's screen.</p>
+<p>There is also a debugging button which allows the PCB to enter and exit "Testing Mode", as well as 2 yellow LEDs for debugging indications.</p>
+<p>If there are any power issues, the header pins also provide power connections to either supply or receive 5 volts and a ground connection for the other PCBs.</p>
+<h2 id="block-diagram">Block Diagram</h2>
+<p>Figure 1 displays the pH Sensor Block Diagram.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="docs/01-Block-Diagram/individual-block-diagram.drawio.pdf" data-desc-position="bottom"><img alt="Figure 1" src="docs/01-Block-Diagram/individual-block-diagram.drawio.pdf"></a></p>
 
 
 
