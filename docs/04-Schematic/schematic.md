@@ -13,4 +13,4 @@ The schematic shown in Figure 1 is designed to support Team 210 and our water qu
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Subsystem_schematic.pdf), and the Zip folder of the project [*here*]().
+The schematic as a PDF download is available [*here*](Subsystem_schematic.pdf), and the Zip folder of the schematic built in KiCad [*here*](Subsystem_schematic.zip).
