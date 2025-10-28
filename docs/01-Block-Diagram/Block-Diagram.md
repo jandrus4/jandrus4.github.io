@@ -19,4 +19,4 @@ If there are any power issues, the header pins also provide power connections to
 ## Block Diagram 
 Figure 1 displays the pH Sensor Block Diagram.
 
-![Figure 1](individual-block-diagramdrawio.pdf)
+![Figure 1](individualblockdiagramdrawio.pdf)
