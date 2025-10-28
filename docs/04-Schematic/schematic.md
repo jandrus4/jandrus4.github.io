@@ -1,5 +1,5 @@
 ---
-title: Schematic
+title: pH Sensor Schematic
 ---
 
 ## Overview
