@@ -3,14 +3,14 @@ title: Power Budget
 ---
 
 ## Overview
-The only components that need a power supply are the microcontroller and operational amplifier. The voltage regulator will take the 9 volts from the battery and regulate it to 5 volts.
+The only components that need a power supply are the microcontroller and operational amplifier. The voltage regulator will take the 9 volts from the battery and regulate it to 5 volts. All other electronic signals will be processed by the microcontroller and used to indicate safe or dangerous pH levels of water.
 
-![budget1](image.png){style width:"350" height:"300;"}
+![budget1]()
 
 ## Conclusions
 
-The power budget is very limited, due to the fact that not many components require some kind of external power source. The majority of this subsystem depends on an analog measurement being amplified to provide the user with an idea as to the pH of some water.
+The power budget shows significant available power, due to the fact that not many components require some kind of external power source. VibeWater intends to use this subsystem's power supply as a backup in the event their power systems fail.
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](c:\Users\User\Downloads\Power_Budget.pdf).
+The power budget as a PDF download is available [*here*]() and as an Excel file [*here*]().
