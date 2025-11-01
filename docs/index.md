@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Jacob Andrus Datasheet</font><br>
 as part of<br>
-<font size= "8"> WaterVibe</font><br>
+<font size= "8"> VibeWater</font><br>
 for<br>
 <font size= "5"> Team 210 </font><br>
 
