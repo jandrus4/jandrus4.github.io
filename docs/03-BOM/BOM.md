@@ -14,7 +14,7 @@ The following table is a list of the materials used in this subsystem and the to
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
+PIC18F57Q10 Curiosity Nano Board | 1 | n/a | n/a | n/a | n/a | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
 0.1 µF Ceramic Capacitor, 50V | 6 | n/a | n/a | n/a | n/a | PRLTA 109 |n/a | C1, C2 |
 Debug LED (yellow) | 8 | n/a | n/a | n/a | n/a | PRLTA 109 |n/a | D3, D4, D5, D6 |
 SAFE and DANGER LEDs (green and red) | 3 | n/a | n/a | n/a | n/a | PRLTA 109 |n/a | D1, D2 |
