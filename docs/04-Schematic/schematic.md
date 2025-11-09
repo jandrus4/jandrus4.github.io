@@ -7,7 +7,7 @@ title: pH Sensor Schematic
 The schematic shown in Figure 1 is designed to support Team 210 and our water quality device.
 
 
-![schematic](final_schematic.png){style width:"350" height:"300;"}
+![schematic](final_schematic.PNG){style width:"350" height:"300;"}
 **Figure 1:** pH Sensor Subsystem
 
 
