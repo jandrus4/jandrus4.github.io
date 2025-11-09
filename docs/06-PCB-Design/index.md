@@ -2,15 +2,15 @@ title: PCB design
 ---
 
 ## Overview
-This is a manufacturable PCB for Peralta Labs to create the controller board.
+This is a manufacturable PCB for Peralta Labs to create the pH sensor board.
 
-![pcb front](pcbf.png)
+![pcb front](front_pcb.PNG)
 PCB front
-![pcb back](pcbb.png)
+![pcb back](back_pcb.PNG)
 PCB rear
 
 ## Resouces
 
-The KiCAD project folder is available [*here*](IndividualSubsystem.zip).
-The gerber files for the PCB are available [*here*](gerbers.zip).
-PCB image files are available as PNGs [*here*](PCBimages.zip).
+The KiCAD project folder is available [*here*](Subsystemschematic(2).zip).
+The gerber files for the PCB are available [*here*](Subsystem_PCB_gerber_and_drill.zip).
+PCB image files are available as PNGs [*here*](pcb_pictures.zip).
