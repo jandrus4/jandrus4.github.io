@@ -6,4 +6,4 @@ This is the microcontroller code for the pH sensor subsystem.
 
 ## Resources
 
-The MPLAB IDE project is available here [*here*](hardware_check.zip).
+The MPLAB IDE project is available [*here*](hardware_check.zip).
