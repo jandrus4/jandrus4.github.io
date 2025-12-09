@@ -12,5 +12,5 @@ PCB rear
 ## Resouces
 
 The KiCAD project folder is available [*here*](Subsystemschematic(2).zip).
-The gerber files for the PCB are available [*here*](Subsystem_PCB_gerber_and_drill.zip).
-PCB image files are available as PNGs [*here*](pcb_pictures.zip).
+The gerber files for the PCB are available [*here*](Subsystem PCB Design (Jacob).zip).
+PCB image files are available as PNGs [*here*]().
